@@ -25,10 +25,14 @@ const APPS = [
     short: "A friendly chatbot that teaches civic skills—public records, town halls, and more.",
     long: "Learn how to file records requests, testify effectively, read agendas, and track outcomes. Scenario practice included.",
     url: "https://civicbot.clarityforus.org", tags: ["Civic Education"] },
+  { name: "EchoChamber+", slug: "echochamber-plus", status: "Dev",
     short: "Content filter/replacement profiles for research on information bubbles.",
     long: "Swap vocabulary via profiles (e.g., Conspiracy / Hyper-Patriot / Post-Truth) to study framing effects. Extension + demo playground.",
+    url: "https://echochamber.clarityforus.org", tags: ["Media Literacy"] },
+  { name: "CivicFundr (Parody)", slug: "civicfundr", status: "Dev",
     short: "A tongue-in-cheek landing for civic crowdfunding tropes—with working UI bits.",
     long: "A parody page exploring the aesthetics of crowdfunding in civic spaces. Useful for UX tests and demo talks.",
+    url: "https://civicfundr.clarityforus.org", tags: ["Parody","UX"] },
   { name: "Outdated Facts", slug: "outdated-facts", status: "Alpha",
     short: "A living museum of facts that used to be true—until they weren’t.",
     long: "Crowd-curated timelines, citations, and explainers for fast-changing knowledge. Educational + meme-ready.",
@@ -158,6 +162,7 @@ export default function App() {
             <ul className="list-inside list-disc text-sm text-zinc-600 dark:text-zinc-300">
               <li>Billwise: daily pipelines, state selector, shareable links</li>
               <li>Follow the Funds: org/candidate pages, network view</li>
+              <li>EchoChamber+: extension packaging + demo playground</li>
             </ul>
           </div>
           <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
