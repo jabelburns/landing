@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./styles.css";
@@ -6,3 +6,4 @@ import "./styles.css";
 const rootEl = document.getElementById("root");
 const root = createRoot(rootEl);
 root.render(<App />);
+

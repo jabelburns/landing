@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+﻿import React, { useMemo, useState } from "react";
 
 const APPS = [
   { name: "Billwise", slug: "billwise", status: "Alpha",
@@ -14,7 +14,7 @@ const APPS = [
     long: "VoterMatch helps voters discover candidates beyond the usual headlines. Answer a few questions and compare alignment, records, and influence signals.",
     url: "https://votermatch.clarityforus.org", tags: ["Elections","Civic Engagement"] },
   { name: "Ask the LawBot", slug: "ask-the-lawbot", status: "Concept",
-    short: "Legalese → human. Simplify documents and draft common forms step-by-step.",
+    short: "Legalese â†’ human. Simplify documents and draft common forms step-by-step.",
     long: "Upload or paste text and get a plain-language explanation, issue spotting, and starter language for common filings. Educational use; not legal advice.",
     url: "https://lawbot.clarityforus.org", tags: ["Access to Justice","Docs"] },
   { name: "AI Bureaucracy Buster", slug: "bureaucracy-buster", status: "Concept",
@@ -22,15 +22,15 @@ const APPS = [
     long: "Turn confusing workflows into checklists with auto-filled fields, document collection, and deadline reminders. Exports to official PDFs.",
     url: "https://buster.clarityforus.org", tags: ["Gov Services","Automation"] },
   { name: "CivicBot", slug: "civicbot", status: "Prototype",
-    short: "A friendly chatbot that teaches civic skills—public records, town halls, and more.",
+    short: "A friendly chatbot that teaches civic skillsâ€”public records, town halls, and more.",
     long: "Learn how to file records requests, testify effectively, read agendas, and track outcomes. Scenario practice included.",
     url: "https://civicbot.clarityforus.org", tags: ["Civic Education"] },
     short: "Content filter/replacement profiles for research on information bubbles.",
     long: "Swap vocabulary via profiles (e.g., Conspiracy / Hyper-Patriot / Post-Truth) to study framing effects. Extension + demo playground.",
-    short: "A tongue-in-cheek landing for civic crowdfunding tropes—with working UI bits.",
+    short: "A tongue-in-cheek landing for civic crowdfunding tropesâ€”with working UI bits.",
     long: "A parody page exploring the aesthetics of crowdfunding in civic spaces. Useful for UX tests and demo talks.",
   { name: "Outdated Facts", slug: "outdated-facts", status: "Alpha",
-    short: "A living museum of facts that used to be true—until they weren’t.",
+    short: "A living museum of facts that used to be trueâ€”until they werenâ€™t.",
     long: "Crowd-curated timelines, citations, and explainers for fast-changing knowledge. Educational + meme-ready.",
     url: "https://outdatedfacts.org", tags: ["Education","Culture"] },
   { name: "We the Data (Suite)", slug: "we-the-data", status: "Umbrella",
@@ -121,10 +121,10 @@ export default function App() {
           Open tools for open government
         </p>
         <h1 className="text-3xl font-semibold leading-tight sm:text-4xl md:text-5xl">
-          ClarityForUs — civic tech apps that turn complexity into clarity.
+          ClarityForUs â€” civic tech apps that turn complexity into clarity.
         </h1>
         <p className="mt-4 max-w-2xl text-zinc-600 dark:text-zinc-300">
-          A unified home for Billwise, Follow the Funds, VoterMatch, and more. This page is a ready-to-ship scaffold—swap links when apps go live.
+          A unified home for Billwise, Follow the Funds, VoterMatch, and more. This page is a ready-to-ship scaffoldâ€”swap links when apps go live.
         </p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a href="#apps" className="inline-flex items-center justify-center rounded-xl bg-zinc-900 px-4 py-2.5 text-sm font-medium text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">Explore apps</a>
@@ -137,9 +137,9 @@ export default function App() {
         <div className="mb-4 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
           <h2 className="text-xl font-semibold">Apps</h2>
           <label className="relative block w-full sm:w-80">
-            <input value={q} onChange={(e)=>setQ(e.target.value)} placeholder="Search apps, features, or tags…"
+            <input value={q} onChange={(e)=>setQ(e.target.value)} placeholder="Search apps, features, or tagsâ€¦"
               className="w-full rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm outline-none ring-0 placeholder:text-zinc-400 focus:border-zinc-400 dark:border-zinc-700 dark:bg-zinc-900 dark:focus:border-zinc-500" />
-            <span className="pointer-events-none absolute right-3 top-2.5 text-zinc-400">⌘K</span>
+            <span className="pointer-events-none absolute right-3 top-2.5 text-zinc-400">âŒ˜K</span>
           </label>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -170,7 +170,7 @@ export default function App() {
           <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
             <h3 className="mb-1 font-medium">Later</h3>
             <ul className="list-inside list-disc text-sm text-zinc-600 dark:text-zinc-300">
-              <li>“We the Data” docs & design tokens</li>
+              <li>â€œWe the Dataâ€ docs & design tokens</li>
               <li>Unified account & notifications</li>
               <li>Public API & contributor portal</li>
             </ul>
@@ -192,7 +192,7 @@ export default function App() {
         <div className="mt-8">
           <h3 className="text-lg font-semibold">Our Mission</h3>
           <p className="mt-2 text-zinc-600 dark:text-zinc-300">
-            At ClarityForUs, our mission is to make democracy more accessible, understandable, and actionable for everyone. We believe civic information should empower—not overwhelm—citizens. By turning dense data and confusing processes into clear, open tools, we help communities:
+            At ClarityForUs, our mission is to make democracy more accessible, understandable, and actionable for everyone. We believe civic information should empowerâ€”not overwhelmâ€”citizens. By turning dense data and confusing processes into clear, open tools, we help communities:
           </p>
           <ul className="mt-3 list-inside list-disc text-sm text-zinc-600 dark:text-zinc-300">
             <li>Understand the laws and policies that affect their daily lives.</li>
@@ -209,16 +209,16 @@ export default function App() {
         <div className="mt-8">
           <h3 className="text-lg font-semibold">Our Vision</h3>
           <p className="mt-2 text-zinc-600 dark:text-zinc-300">
-            We envision a future where civic knowledge flows as freely and clearly as everyday conversation. A future where citizens don’t just observe government from a distance, but participate with confidence and understanding. In this world:
+            We envision a future where civic knowledge flows as freely and clearly as everyday conversation. A future where citizens donâ€™t just observe government from a distance, but participate with confidence and understanding. In this world:
           </p>
           <ul className="mt-3 list-inside list-disc text-sm text-zinc-600 dark:text-zinc-300">
             <li>Every person can see, in plain terms, how policies, money, and power connect.</li>
             <li>Communities use shared, open tools to organize and collaborate on issues that matter most to them.</li>
-            <li>Technology bridges divides rather than widening them—making civic processes faster, fairer, and more transparent.</li>
+            <li>Technology bridges divides rather than widening themâ€”making civic processes faster, fairer, and more transparent.</li>
             <li>Public trust grows because information is accessible, accurate, and designed for people, not gatekeepers.</li>
           </ul>
           <p className="mt-3 text-zinc-600 dark:text-zinc-300">
-            Our long-term vision is a civic ecosystem where clarity, openness, and accountability are the default—not the exception. ClarityForUs will be a catalyst for this shift, demonstrating how simple, well-designed tools can strengthen democracy at every level.
+            Our long-term vision is a civic ecosystem where clarity, openness, and accountability are the defaultâ€”not the exception. ClarityForUs will be a catalyst for this shift, demonstrating how simple, well-designed tools can strengthen democracy at every level.
           </p>
         </div>
       </section>
@@ -239,9 +239,9 @@ export default function App() {
       {/* Contact */}
       <section id="contact" className="mx-auto max-w-3xl px-4 pb-16">
         <h2 className="text-xl font-semibold">Contact</h2>
-        <p className="mt-2 text-zinc-600 dark:text-zinc-300">Have feedback or want to collaborate? Drop your email and we’ll reach out.</p>
+        <p className="mt-2 text-zinc-600 dark:text-zinc-300">Have feedback or want to collaborate? Drop your email and weâ€™ll reach out.</p>
         <form className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-[1fr_auto]"
-              onSubmit={(e)=>{e.preventDefault(); alert("Thanks! We’ll be in touch.");}}>
+              onSubmit={(e)=>{e.preventDefault(); alert("Thanks! Weâ€™ll be in touch.");}}>
           <input type="email" required placeholder="you@domain.com"
                  className="w-full rounded-xl border border-zinc-300 bg-white px-3 py-2 text-sm outline-none ring-0 placeholder:text-zinc-400 focus:border-zinc-400 dark:border-zinc-700 dark:bg-zinc-900 dark:focus:border-zinc-500" />
           <button type="submit"
@@ -254,10 +254,10 @@ export default function App() {
       {/* Footer */}
       <footer className="border-t border-zinc-200 bg-white/60 px-4 py-8 text-sm text-zinc-500 backdrop-blur-md dark:border-zinc-800 dark:bg-zinc-950/60 dark:text-zinc-400">
         <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-3 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} ClarityForUs. Built under the “We the Data” project.</p>
+          <p>Â© {new Date().getFullYear()} ClarityForUs. Built under the â€œWe the Dataâ€ project.</p>
           <div className="flex items-center gap-4">
             <a href="https://clarityforus.org" className="hover:text-zinc-700 dark:hover:text-zinc-200">clarityforus.org</a>
-            <span>·</span>
+            <span>Â·</span>
             <a href="https://clarityforus.com" className="hover:text-zinc-700 dark:hover:text-zinc-200">clarityforus.com</a>
           </div>
         </div>
@@ -265,4 +265,5 @@ export default function App() {
     </main>
   );
 }
+
 
