@@ -36,8 +36,7 @@ const APPS = [
   { name: "We the Data (Suite)", slug: "we-the-data", status: "Umbrella",
     short: "The shared design system, data model, and principles behind all our apps.",
     long: "Open tools for open government: interoperability, transparency by default, and docs for contributors.",
-    url: "https://wethedata.clarityforus.org", tags: ["Design System","Principles"] },
-];
+    url: "https://wethedata.clarityforus.org", tags: ["Design System","Principles"] }];
 
 function classNames(...xs) { return xs.filter(Boolean).join(" "); }
 
@@ -266,3 +265,4 @@ export default function App() {
     </main>
   );
 }
+
