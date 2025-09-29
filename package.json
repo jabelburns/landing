@@ -4,9 +4,10 @@
     "private":  true,
     "type":  "module",
     "scripts":  {
-                    "dev":  "vite",
+                    "preview":  "vite preview",
                     "build":  "vite build",
-                    "preview":  "vite preview"
+                    "dev":  "vite",
+                    "update-roadmap":  "node scripts/updateRoadmap.js"
                 },
     "dependencies":  {
                          "react":  "^18.3.1",
